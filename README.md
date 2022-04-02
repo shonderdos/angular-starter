@@ -26,9 +26,12 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-
 ## Some things I want to implelemt in this repo
-- Jest
-- Prettier
-- Cypress
-- Dapendabot
+
+- [x] Prettier
+- [ ] Cypress
+- [ ] Dapendabot
+- [ ] run a pre commit hook for linting?
+- [ ] Setting up github actions for a PR
+- [ ] remove git-run-all dep
+- [ ] Eslint
