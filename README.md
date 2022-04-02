@@ -31,7 +31,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 - [x] Prettier
 - [ ] Cypress
 - [ ] Dapendabot
-- [ ] run a pre commit hook for linting?
+- [x] run a pre commit hook for linting?
 - [ ] Setting up github actions for a PR
-- [ ] remove git-run-all dep
+- [x] remove git-run-all dep
 - [ ] Eslint
