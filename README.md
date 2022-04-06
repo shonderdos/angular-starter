@@ -30,7 +30,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 - [x] Prettier
 - [ ] Cypress
-- [ ] Dapendabot
+- [x] Dapendabot (Renovate)
 - [x] run a pre commit hook for linting?
 - [ ] Setting up github actions for a PR
 - [x] remove git-run-all dep
