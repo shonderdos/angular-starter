@@ -1,6 +1,14 @@
-# DevCase
+# Angular Starter
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.1.
+This is a angular starter project featuring some extra packages.
+
+✔️ Jest
+✔️ Prettier
+✔️ ESLint
+✔️ Cypress
+
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli).
 
 ## Development server
 
@@ -25,13 +33,3 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-
-## Some things I want to implelemt in this repo
-
-- [x] Prettier
-- [ ] Cypress
-- [x] Dapendabot (Renovate)
-- [x] run a pre commit hook for linting?
-- [ ] Setting up github actions for a PR
-- [x] remove git-run-all dep
-- [ ] Eslint
