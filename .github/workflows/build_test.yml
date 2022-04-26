@@ -1,0 +1,24 @@
+name: Continuous Integration
+on:
+  pull_request:
+    branches: [ develop ]
+jobs:
+  build_and_test:
+    runs-on: self-hosted
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v2
+
+      - name: Use Node.js 12.8
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Install
+        run: npm i
+
+      - name: Build
+        run: npm run build
+
+      - name: Test
+        run: npm test
