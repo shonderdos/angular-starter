@@ -7,6 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "jest",
+    "test:watch": "jest --watch",
     "lint": "ng lint",
     "format:fix": "pretty-quick --staged",
     "prepare": "husky install",
